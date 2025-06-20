@@ -1,0 +1,45 @@
+.but{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 5px 7px;
+    border: none;
+    cursor: pointer;
+}
+.top{
+    background-color: rgb(68, 141, 146);
+    padding: 7px;
+    display: flex;
+    justify-content: end;
+    align-content: stretch;
+}
+.drop{
+    position: relative;
+    display: inline-block;
+}
+.cont{
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 200px;
+    z-index: 1;
+}
+.cont a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: verdana;
+}
+.cont a:hover{
+    background-color: #f1f1f1;
+}
+.drop:hover .cont{
+    display: block;
+}
+.drop:hover .but{
+    background-color: #3e8e41;
+}
+.img{
+    height: auto;
+    width: 30px;
+}
