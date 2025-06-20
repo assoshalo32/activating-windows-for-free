@@ -9,7 +9,7 @@
     background-color: #ADD8E6;
     padding: 17px;
     display: flex;
-    justify-content: end;
+    justify-content: start;
     align-content: stretch;
 }
 .drop{
